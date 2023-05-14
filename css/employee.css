@@ -1,0 +1,100 @@
+body {
+  background: lightslategray;
+  color: #5e5e5e;
+}
+
+.menubar {
+  background: lightgrey;
+  color: #5e5e5e;
+  margin: 10px auto 0;
+  max-width: 800px;
+  padding: 30px 10px 10px;
+  text-align: right;
+  font-size: smaller;
+}
+
+a {
+  padding: 10px;
+}
+
+a:link {
+  color: brown;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a:visited {
+  color: cadetblue;
+}
+
+.container {
+  margin: 0px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 800px;
+  background: #fafafa;
+}
+
+h4 {
+  margin: auto;
+  text-align: center;
+}
+
+.detailTable {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.detailTable td {
+  vertical-align: middle;
+}
+
+form {
+  margin: 0 auto;
+}
+
+input::-webkit-input-placeholder {
+  font-size: small;
+}
+input:-moz-placeholder {
+  font-size: small;
+}
+input::-moz-placeholder {
+  font-size: small;
+}
+input:-ms-input-placeholder {
+  font-size: small;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 0 0 auto;
+}
+
+.shinki {
+  text-align: right;
+}
+
+.tanto {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  /* font-size: 14px; */
+}
+
+.msg {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: red;
+}
+
+form label {
+  font-size: 14px;
+}
+
+::placeholder {
+  color: ＃aaa;
+}

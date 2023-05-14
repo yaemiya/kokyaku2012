@@ -1,0 +1,74 @@
+body {
+  background: #e9e9e9;
+  color: #5e5e5e;
+}
+
+a:link {
+  color: brown;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a:visited {
+  color: cadetblue;
+}
+
+.container {
+  margin: 50px auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  max-width: 500px;
+  background: #fafafa;
+}
+
+h4 {
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  margin: 30px auto;
+}
+
+input::-webkit-input-placeholder {
+  font-size: small;
+}
+input:-moz-placeholder {
+  font-size: small;
+}
+input::-moz-placeholder {
+  font-size: small;
+}
+input:-ms-input-placeholder {
+  font-size: small;
+}
+
+.btn {
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+.shinki {
+  text-align: right;
+}
+
+.loginData {
+  display: inline-block;
+}
+
+.msg {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: red;
+}
+
+form label {
+  font-size: 14px;
+}
+
+::placeholder {
+  color: ＃bbb;
+}
